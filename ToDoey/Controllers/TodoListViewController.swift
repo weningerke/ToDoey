@@ -11,7 +11,9 @@ import CoreData
 
 class TodoListViewController: UITableViewController {
 
-    
+//    override var prefersStatusBarHidden: Bool{
+//        return true
+//    }
     var itemArray = [Item]()
     //MARK: selectedCategory
     var selectedCategory : Category? {
